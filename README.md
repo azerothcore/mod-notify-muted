@@ -1,4 +1,4 @@
-# PlayerNotSpeak [![Build Status](https://travis-ci.org/Winfidonarleyan/PlayerNotSpeak-module.svg?branch=master)](https://travis-ci.org/Winfidonarleyan/PlayerNotSpeak-module)
+# PlayerNotSpeak [![Build Status](https://travis-ci.com/Winfidonarleyan/PlayerNotSpeak-module.svg?branch=master)](https://travis-ci.com/Winfidonarleyan/PlayerNotSpeak-module)
 
 ### This is a module for [AzerothCore](http://www.azerothcore.org)
 
