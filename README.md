@@ -20,3 +20,12 @@
 
 ### Usage
 - Write to the player, whose chat is disabled
+
+## Credits
+@Winfidonarleyan (author of the module)
+
+@BarbzYHOOL: Best guy
+
+@Talamortis: Almost best guy
+
+AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
