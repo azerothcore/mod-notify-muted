@@ -2,13 +2,13 @@
 
 ### This is a module for [AzerothCore](http://www.azerothcore.org)
 
-#### Features:
+### Features:
 - This module notifies the player (who wrote a private message) that his interlocutor can not talk (if his chat is not available)
 
-#### Config option (PlayerNotSpeak.conf.dist)
+### Config option (PlayerNotSpeak.conf.dist)
 - PlayerNotSpeak.Enable (Enable/Disable module)
 
-### PlayerNotSpeak Module currently requires:
+### This module currently requires:
 - AzerothCore v1.0.1+
 
 ### How to install
@@ -22,10 +22,8 @@
 - Write to the player, whose chat is disabled
 
 ## Credits
-@Winfidonarleyan (author of the module)
-
-@BarbzYHOOL: Best guy
-
-@Talamortis: Almost best guy
+* [Winfidonarleyan](https://github.com/Winfidonarleyan): (author of the module): 
+* [BarbzYHOOL](https://github.com/barbzyhool): best guy
+* [Talamortis](https://github.com/talamortis): almost best guy
 
 AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
