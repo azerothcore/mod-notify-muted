@@ -1,4 +1,3 @@
-#include "ScriptPCH.h"
 #include "Config.h"
 
 enum PlayerNotSpeak_Locale
@@ -51,7 +50,7 @@ public:
 			sLog->outError("Config: Verify that the file exists and has \'[worldserver]' written in the top of the file!");
 			sLog->outError("Config: Use default settings!");
 			sLog->outString();
-		}		
+		}
     }
 };
 
