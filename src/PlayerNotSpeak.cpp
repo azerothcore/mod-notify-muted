@@ -1,5 +1,6 @@
 #include "Config.h"
 #include "Chat.h"
+#include "ScriptMgr.h"
 
 enum PlayerNotSpeak_Locale
 {
