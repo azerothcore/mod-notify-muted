@@ -15,7 +15,7 @@ public:
 
     void OnChat(Player* player, uint32 /*type*/, uint32 /*lang*/, std::string& /*msg*/, Player* receiver) override
 	{
-        if (!sConfigMgr->GetBoolDefault("PlayerNotSpeak.Enable", false))
+        if (!sConfigMgr->GetOption<bool>("PlayerNotSpeak.Enable", false))
             return;
 
         if (receiver->CanSpeak())
