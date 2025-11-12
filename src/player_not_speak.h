@@ -14,7 +14,7 @@ public:
     PlayerNotSpeak() : PlayerScript("PlayerNotSpeak", {
         PLAYERHOOK_CAN_PLAYER_USE_PRIVATE_CHAT
     }) {}
-    void OnPlayerCanUseChat(Player* player, uint32 /*type*/, uint32 /*lang*/, std::string& /*msg*/, Player* receiver) override;
+    bool OnPlayerCanUseChat(Player* player, uint32 /*type*/, uint32 /*lang*/, std::string& /*msg*/, Player* receiver) override;
 };
 
 void AddPlayerNotSpeakScripts()
