@@ -12,9 +12,9 @@ class PlayerNotSpeak : public PlayerScript
 {
 public:
     PlayerNotSpeak() : PlayerScript("PlayerNotSpeak", {
-        PLAYERHOOK_ON_CHAT_WITH_RECEIVER
+        PLAYERHOOK_CAN_PLAYER_USE_PRIVATE_CHAT
     }) {}
-    void OnPlayerChat(Player* player, uint32 /*type*/, uint32 /*lang*/, std::string& /*msg*/, Player* receiver) override;
+    void OnPlayerCanUseChat(Player* player, uint32 /*type*/, uint32 /*lang*/, std::string& /*msg*/, Player* receiver) override;
 };
 
 void AddPlayerNotSpeakScripts()
